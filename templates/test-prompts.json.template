@@ -1,0 +1,55 @@
+{
+  "skill": "{{skill-slug}}",
+  "source_book": "《{{BOOK_TITLE}}》",
+  "description": "{{与 SKILL.md frontmatter 一致}}",
+  "tests": [
+    {
+      "id": "d-01",
+      "type": "direct",
+      "prompt": "{{直接提问：求定义/判定/步骤/关系/反例}}",
+      "expected": "should_activate"
+    },
+    {
+      "id": "d-02",
+      "type": "direct",
+      "prompt": "{{另一条直接提问}}",
+      "expected": "should_activate"
+    },
+    {
+      "id": "b-01",
+      "type": "boundary",
+      "prompt": "{{边界模糊：涉及概念适用边界的问题}}",
+      "expected": "should_activate_with_condition"
+    },
+    {
+      "id": "b-02",
+      "type": "boundary",
+      "prompt": "{{域切换问题（F=R vs F=C）}}",
+      "expected": "should_activate_with_condition",
+      "note": "F=R 和 F=C 的答案不同"
+    },
+    {
+      "id": "bait-01",
+      "type": "bait",
+      "prompt": "{{诱饵：同名异义的问题}}",
+      "expected": "should_not_activate"
+    },
+    {
+      "id": "bait-02",
+      "type": "bait",
+      "prompt": "{{诱饵：日常用语}}",
+      "expected": "should_not_activate"
+    },
+    {
+      "id": "app-01",
+      "type": "application",
+      "prompt": "{{应用场景：从实际问题出发}}",
+      "expected": "should_activate"
+    }
+  ],
+  "total": {
+    "should_activate": "7-8",
+    "should_not_activate": "2-3",
+    "total": "10"
+  }
+}
