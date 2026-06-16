@@ -1,8 +1,8 @@
-# GitHub Repo Metadata
+﻿# GitHub Repo Metadata
 
 - Repository name: `math-textbook-to-skill`
 - Default README: `README.md`
-- Description: `Distill mathematics textbooks into reusable AI skills — from definitions, theorems, proofs to exercises. A fork of cangjie-skill methodology adapted for math.`
+- Description: `Distill mathematics textbooks into reusable AI skills 鈥?from definitions, theorems, proofs to exercises. A fork of cangjie-skill methodology adapted for math.`
 - Topics:
   - `ai-skills`
   - `mathematics`
@@ -14,3 +14,4 @@
   - `education`
   - `linear-algebra`
   - `claude-skills`
+

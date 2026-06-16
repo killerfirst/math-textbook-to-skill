@@ -50,7 +50,7 @@ math-textbook-to-skill/
 ## Quick Start
 
 ```bash
-git clone https://github.com/weijinfeng177/math-textbook-to-skill.git
+git clone https://github.com/killerfirst/math-textbook-to-skill.git
 cd math-textbook-to-skill
 
 # Use as Claude Code skill

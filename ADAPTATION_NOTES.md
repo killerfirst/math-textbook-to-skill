@@ -3,7 +3,7 @@
 > 本文是 `math-textbook-to-skill` 的原始设计文档。
 > 基于《线性代数应该这样学》(Sheldon Axler) 的实战适配经验。
 
-原始适配笔记保存在：[Obsidian Vault 源文件](https://github.com/weijinfeng177/math-textbook-to-skill/blob/main/ADAPTATION_NOTES.md)
+原始适配笔记保存在：[ADAPTATION_NOTES.md](./ADAPTATION_NOTES.md)
 
 ## 为什么数学教材需要单独适配
 
