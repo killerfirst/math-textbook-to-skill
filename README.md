@@ -15,7 +15,7 @@
 
 ## 为什么数学教材需要单独的技能蒸馏方法
 
-现有的 [cangjie-skill](https://github.com/kangarooking/cangjie-skill)（即 book2skill）是一个优秀的通用方法论蒸馏流水线，但它为「决策框架/原则/清单」类书籍设计。数学教材的知识结构完全不同：
+现有的 [cangjie-skill](https://github.com/kangarooking/cangjie-skill)（即 book to skill）是一个优秀的通用方法论蒸馏流水线，但它为「决策框架/原则/清单」类书籍设计。数学教材的知识结构完全不同：
 
 | 维度 | 方法论书（《影响力》） | 数学教材（《线性代数应该这样学》） |
 |------|----------------------|----------------------------------|
